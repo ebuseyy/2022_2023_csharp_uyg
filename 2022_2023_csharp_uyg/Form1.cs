@@ -29,7 +29,7 @@ namespace _2022_2023_csharp_uyg
         private void Form1_Load(object sender, EventArgs e)
         {
             // .connectionString; vt nin yolunu tanımlamak için kullanılır
-            conn.ConnectionString = "server=DESKTOP-520STTO; database=_2022_2023_1_donem; uid=sa; pwd=12345;";
+            conn.ConnectionString = "server=yourservername; database=_2022_2023_1_donem; uid=userid; pwd=yourpassword;";
             verigetir();
         }
 
